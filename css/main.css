@@ -71,8 +71,6 @@ header .logo {
   transition: all 0.25s ease-in;
 }
 
-
-
 header .navbar {
   float: right;
   position: static;
@@ -322,7 +320,7 @@ header.stick .sub-cat {
 .header-img .overlay h1 {
   color: #fff;
   vertical-align: middle;
-  margin-top: 30px;
+  margin-top: 20px;
   text-shadow: 2px 2px 7px rgba(0,0,0,0.4);
   max-width: 600px;
   font-family: 'Roboto Condensed', sans-serif;
@@ -390,6 +388,10 @@ header.stick .sub-cat {
 .header-img .overlay .btn-wrp{
   padding-left: 100px;
   margin-top: 20px;
+}
+
+.img-fluid {
+  max-width: 126%;
 }
 
 @keyframes headerA {
@@ -1372,7 +1374,7 @@ a:hover .icon-brash:before {
   color: #999;
 }
 
-h2 {
+h2, h3{
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
   margin: 40px 0 20px 0;
