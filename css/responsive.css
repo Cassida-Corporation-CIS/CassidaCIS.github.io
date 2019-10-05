@@ -1,0 +1,394 @@
+
+@media screen and (max-width: 1199px){
+    header .navbar-nav > li {
+        margin: 0;
+    }
+
+    .news-wrp .item {
+        margin-left: 20px;
+    }
+
+    .reel img{
+        height: auto;
+    }
+
+    .carier-page  h3 {
+        font-size: 38px;
+    }
+
+    .carier-page .workis-item {
+        font-size: 22px;
+    }
+
+    .vac-item {
+        font-size: 14px;
+    }
+
+    .vac-item h5 {
+        font-size: 22px;
+    }
+
+    .vac-item .btn-wrp .more {
+        font-size: 12px;
+    }
+
+    .vac-item .btn-wrp .cb {
+        font-size: 12px;
+    }
+
+    .vac-not .text {
+        font-size: 24px;
+    }
+
+    .carier-page .workis-item .img-cont {
+        max-width: 220px;
+        margin: 0 auto;
+    }
+
+    .head-carier h1 {
+        font-size: 33px;
+    }
+
+    .head-carier {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    header .navbar-nav > li > a {
+        font-size: 12px;
+        font-weight: normal;
+        padding: 10px 15px;
+    }
+    .navbar-collapse {
+        padding: 0;
+    }
+
+    header .logo {
+        margin-right: 0;
+    }
+
+    .news-wrp .item {
+        width: 165px;
+    }
+
+    .news-wrp .item img {
+        max-width: 100%;
+    }
+
+    footer .about .phone {
+        font-size:18px;
+        margin-right: 0;
+    }
+
+    footer .foot-nav {
+        padding: 0;
+    }
+    .carier-page .workis-item .img-cont {
+        padding: 15px;
+    }
+
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .c-hamburger {
+        display: block;
+    }
+
+    header .logo {
+        width: 145px;
+    }
+
+    .wrapper .nav a:hover{
+        color: white;
+        background: #DB1F2A;
+      }
+
+    footer .foot-nav {
+        margin-bottom: 30px;
+        display: none;
+    }
+
+    footer .about {
+        text-align: center;
+    }
+
+    .news-wrp {
+        text-align: center;
+    }
+
+    .news-wrp .item {
+        display: inline-block;
+        float: none;
+        margin: 10px 5px;
+
+    }
+
+    section.media {
+        background: #1f1f1f;
+    }
+
+    section.media .nav-tabs li.active:before {
+        display: none;
+    }
+
+    .products-wrp {
+        text-align: center;
+    }
+
+    .products-wrp .item {
+        width: 100% !important;
+        max-width: 470px;
+        float: none;
+        margin: 0 auto;
+    }
+
+    .navbar-nav {
+        margin: 0;
+        background: #fff;
+    }
+
+    .navbar-collapse {
+        position: fixed;
+        width: 100%;
+        left: 0;
+        top: 68px;
+        border-bottom: 2px solid #d61e24;
+        transform: translateX(-400px);
+        box-shadow:  0px 3px 10px rgba(0,0,0,0.1);
+        bottom:0;
+    }
+
+    .main-nav.open {
+        display: block;
+        width: 100%;
+        transition: all 0.3s ease-in;
+    }
+
+    .main-nav.anim {
+        transform: translateX(0px);
+    }
+
+    header .navbar-nav > li > a {
+        font-size: 18px;
+    }
+
+    .navbar-nav {
+        padding: 20px 10px;
+    }
+
+    .sub-cat {
+        position: static;
+        display: block;
+        transform: scale(1);
+        opacity: 1;
+        border: none;
+        padding: 0;
+    }
+
+    header .navbar-nav > li > a span:before,
+    header .navbar-nav > li > a span:after {
+        display: none;
+    }
+
+    .sub-cat .sub-cat-in {
+        background: none;
+        padding: 20px 30px;
+    }
+
+    .sub-cat .products {
+        display: none !important;
+    }
+
+    .sub-cat .category > li .img-cont {
+        display: none;
+    }
+
+    .sub-cat .category > li {
+        float: none;
+        margin-bottom: 15px;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .sub-cat .category > li > a {
+        font-weight: 100;
+    }
+
+    header .navbar-nav .parent > ul {
+        display: block;
+        position: static;
+        opacity: 1;
+        transform: scale(1);
+        background: none;
+        border: none;
+        padding: 20px 30px;
+    }
+
+    header .navbar-nav .parent > ul li {
+        background: none;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    header .navbar-nav .parent > ul li a {
+        font-weight: 100;
+        font-size: 14px;
+    }
+
+    .preview-wrp {
+        padding: 30px 0;
+    }
+
+    .preview-box > div {
+        max-width: 535px;
+        margin: 0 auto;
+    }
+
+    .preview-wrp .charests {
+        padding-left: 0;
+    }
+
+    .header-img {
+        margin-top: 60px;
+        margin-bottom: 0;
+        width: 100%;
+    }
+
+    header .navbar-collapse {
+        top: 59px;
+    }
+
+    .preview-wrp .nav-preview li {
+        display: inline-block;
+        margin: 0 15px 10px 15px;
+    }
+
+    .preloader-wrp {
+        display: none !important;
+    }
+
+    header .navbar {
+        margin-top: 0;
+    }
+
+    .cat-icons {
+        margin-left: 0;
+    }
+
+    .card-descr h3 {
+        padding-left: 0;
+    }
+
+    .cat-icons li {
+        font-size: 15px;
+    }
+
+    .header-img .overlay .centered {
+        margin-top: 100px;
+    }
+
+    .header-img .overlay h1 {
+        max-width: 400px;
+        padding-left: 20px;
+    }
+
+    .header-img .overlay .btn-wrp {
+        padding-left: 20px;
+    }
+
+    .vac-item {
+        min-height: auto;
+    }
+
+    .vac-item .btn-wrp {
+        position: static;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .vac-item .btn-wrp .more {
+        margin-bottom: 15px;
+    }
+
+    .vac-item .btn-wrp .cb {
+        float: none;
+    }
+
+    .carier-page .workis-item .img-cont {
+        padding: 125px;
+        max-width: 160px;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .inter-view .points {
+        display: none;
+    }
+
+    .inter-boxs {
+        display: none;
+    }
+
+    .inter-view .image {
+        width: 100%;
+        position: static;
+    }
+
+    .inter-view {
+        height: auto;
+    }
+
+    .view360 img {
+        max-width:100%;
+    }
+
+    .header-img {
+        margin-top: 0;
+    }
+
+    main {
+        padding-top: 0px;
+    }
+
+    main.inner {
+        padding-top: 50px;
+    }
+
+    .preview-wrp .nav-preview {
+        padding: 0;
+    }
+
+    .preview-wrp .nav-preview li {
+        max-width: 100px;
+        vertical-align: bottom;
+        margin: 0;
+    }
+
+    .news-wrp .item {
+        width: 155px;
+    }
+
+    #header_title {
+        display: block;
+        transform: scale(1);
+        opacity: 1;
+        filter: blur(0);
+    }
+
+
+}
+
+@media screen and (max-width: 450px) {
+    footer .col-xs-6 {
+        width: 100%;
+        text-align: center;
+    }
+
+    footer .foot-nav {
+        padding: 0;
+    }
+}
